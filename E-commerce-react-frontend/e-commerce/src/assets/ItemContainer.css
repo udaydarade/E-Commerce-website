@@ -1,0 +1,131 @@
+@font-face {
+  font-family:'Press Start 2P' ;
+  src: url('/public/fonts/PressStart2P-Regular.ttf')format('ttf');
+}
+
+
+
+.responsive-div {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 98%;
+    height: 100%;
+    padding: 2%;
+    padding-top: 0.8%;
+    padding-bottom: 0%;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    overflow: hidden;
+  }
+
+  .colored-box {
+    margin-top: 6%;
+    width: 20px; /* Adjust the width of the colored box as needed */
+    height: 20px; /* Adjust the height of the colored box as needed */
+    margin-right: 5px; /* Adjust the spacing between the colored boxes as needed */
+ 
+  }
+  
+  .colored-box-even {
+    background-color: green;
+  }
+  
+  .colored-box-odd {
+    background-color: red;
+  }
+  
+  .content-container {
+    margin-left: 3%;
+    display: flex;
+    width: 100%;
+  }
+  
+  .left-image {
+    width: 20%; 
+    height: 90%;
+    object-fit: cover;
+    margin-right: 5%;
+  }
+  
+  .text-container {
+    display: flex;
+  }
+  
+  .title {
+    font-weight: 600;
+  }
+
+  .description {
+    margin-top: -6%;
+  }
+
+  .middle-text {
+    margin-left: 2%;
+    flex-grow: 1; /* Middle text container takes up all availabtock */
+  }
+  
+
+  #bottom button{
+    margin-left: -3%;
+    border: none;
+    background-color: transparent;
+    color: red;
+  }
+
+  #bottom span{
+    margin-left: 1%;
+    color: red;
+  }
+  
+  .details {
+    width: 30%; /* Set a fixed width for the rightmost text */
+    font-size: larger ;
+    margin-left: 10%;
+    display: flex;
+  }
+  
+  .cost{
+    position: relative;
+    top:65%;
+    left:-42%;
+  }
+
+  .cost b{
+    font-family: 'Press Start 2P';
+  }
+
+.filled {
+  color: #ffd700; 
+}
+
+.empty {
+  color: gray;
+}
+
+.in-stock {
+  color: green;
+}
+
+.out-of-stock {
+  color: red;
+}
+
+#container{
+  display: flex;
+}
+
+#stock{
+  margin-left: 5%;
+}
+
+#specifications{
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 992px) {
+  .details QuantitySelector{
+    
+  }
+}

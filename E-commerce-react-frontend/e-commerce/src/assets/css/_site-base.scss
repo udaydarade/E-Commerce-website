@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&family=Sen:wght@400..800&display=swap');
+
+$white:#FFFFF8;
+$black:#242424;
+$primary:#D4D4BC;
+$with-buttons-color:#f2f2f200;
+$red:#B50000;
+$body_color:#FDFDEF;
+;
+$holders-color: #FFFFF8;
+
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+$font-family-primary:"Sen";
+$font-family-heading:"Red Rose";
+
+
+body{
+    font-family: $font-family-primary;
+    color: $body_color;
+}
+

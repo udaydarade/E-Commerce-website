@@ -1,0 +1,18 @@
+@font-face {
+    font-family:'Press Start 2P' ;
+    src: url('/public/fonts/PressStart2P-Regular.ttf')format('ttf');
+  }
+  
+nav{
+    font-family: 'Press Start 2P';
+    color: rgba(0, 0, 0, 0.7);
+}  
+
+#name{
+    margin-left: 2%;
+}
+
+p{
+    font-size: larger;
+    margin-right: 2%;
+}

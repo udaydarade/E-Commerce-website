@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('/public/fonts/PressStart2P-Regular.ttf')format('ttf');
+}
+
+
+
+#main_content {
+    position: absolute;
+    width: 89vw;
+    height: 82vh;
+    right: 0%;
+    top: 9%;
+    overflow-y: scroll;
+    padding-top: 1%;
+    background-color: rgba(212, 212, 188, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    z-index: 1;
+    /* Ensure the content is above the navbar */
+}
+
+#click {
+    border: none;
+    background-color: transparent;
+}
+
+#footer {
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+    position: absolute;
+    /* Change to relative positioning */
+    margin-top: 34%;
+    /* Adjust margin top to create space for navbar */
+}
+
+#footer p {
+    flex-direction: row;
+}
+
+#footer button {
+    margin-left: 40%;
+
+}
+
+#footer #amount {
+    font-size: x-large;
+}
+
+#add_items {
+    max-width: 12%;
+    position: absolute;
+    top: 40%;
+    display: flex;
+    z-index: 1;
+    /* Ensure the content is above the navbar */
+}
+
+#add_items img {
+    width: 50%;
+}
+
+#add_items p {
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    margin-right: -30%;
+    margin-left: 5%;
+}
+
+#amount {
+    font-family: 'Press Start 2P';
+}
+
+.Total {
+    font-size:small;
+}
+
+/* Adjustments to prevent overlap */
+@media only screen and (max-width: 992px) {
+    #main_content {
+        top: 15%;
+        height: 65%;
+        width: 100vw;
+    } 
+    
+    .order {
+        position: absolute;
+        top: 85%; 
+        margin-left:5%;
+    }
+
+    #footer button {
+        margin-left: 35%;
+    }
+
+    .Total {
+        margin-right: 10%;
+
+    }
+ 
+
+    #add_items img{
+        margin-left: 45%;
+        width:75px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    #add_items img{
+        margin-left: 0%;
+        width:35px;
+    }
+
+    #add_items p{
+        font-size: small;
+    }
+
+    #footer button {
+        margin-left: 25%;
+    }
+
+    #amount b{
+        font-size: small;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    #main_content{
+        top: 20%;
+    }
+}

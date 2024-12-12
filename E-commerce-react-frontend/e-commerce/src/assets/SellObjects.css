@@ -1,0 +1,114 @@
+@font-face {
+    font-family:'Press Start 2P' ;
+    src: url('/public/fonts/PressStart2P-Regular.ttf')format('ttf');
+  }
+  
+  
+
+#overall{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(212, 212, 188, 1);
+    margin-bottom: 2%;
+}
+
+.itemdetails{
+    width: 85%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    padding-bottom: 0%;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+
+ 
+.picture {
+    width: 20%; /* Set a fixed width for the left image */
+    height: 90%;
+    object-fit: cover;
+    margin-right: 5%;
+  }
+
+
+.info{
+    max-width: 45%;
+    margin-right:5%;
+}
+
+.name {
+    font-weight: 600;
+  }
+
+.about {
+    margin-top: -5%;
+  }  
+
+#remarks{
+    display: flex;    
+}
+
+#avail{
+    margin-left: 4%;
+}
+
+
+.filled {
+    color: #ffd700; 
+  }
+  
+.empty {
+    color: gray;
+  }
+  
+.in-stock {
+    color: green;
+  }
+  
+.out-of-stock {
+    color: red;
+  }
+
+.money{
+    position: relative;
+    top: 40%;
+}
+
+.money b{
+    font-family: 'Press Start 2P';
+}
+
+
+
+.choices{
+    display:flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.choices button{
+    margin: 2%;
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Press Start 2P';
+    font-size: x-large;
+    height: 70px;
+    box-shadow: 6px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Approve{
+    background-color: rgba(255, 229, 0, 1);
+}
+
+.Deny{
+    background-color: rgba(255, 0, 0, 0.45);
+}
+
+
+
+@media only screen and (max-width: 525px) {
+  .money b{
+      font-size: smaller;
+  }
+   
+}

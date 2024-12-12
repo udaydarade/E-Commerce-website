@@ -1,0 +1,56 @@
+@import 'site-base';
+
+
+.contentwrap{
+    color: black;
+    position: relative;
+    width: 80%;
+    height: 630px;
+    top: 50%;
+    left: 10%;
+    background-color: #D4D4BC;
+    box-shadow: 0px 4px 4px 0px #00000040 inset;
+
+    .add{
+        font-family: Sen;
+        font-weight: 700;
+        line-height: 48.13px;
+        text-align: left;
+
+    }
+    .done{
+        background-color: #FFE500;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        border:1px solid #000000;
+        font-family: Sen;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+    }
+    .custom-form-small{
+        position: relative;
+        background-color: #FDFDEFC2;
+        width: 300px;
+        height: 555px;
+        
+    }
+    .custom-form-large{
+        position: relative;
+        background-color: #FDFDEFC2;
+        width: 600px;
+        height: 555px;
+        overflow-y: auto;
+    }
+    .form-control{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        overflow-y:hidden;
+        resize: none;
+    }
+    .form-label{
+        position: relative;
+        left: 5%;
+    }
+}

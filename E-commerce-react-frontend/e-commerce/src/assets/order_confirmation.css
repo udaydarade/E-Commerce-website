@@ -1,0 +1,48 @@
+.confirmation{
+    display: flex;
+    /* align-content: center; */
+    /* justify-content: space-evenly; */
+    /* align-items: baseline; */
+    padding-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDFDEFC2;
+    gap: 20px;
+}
+
+.confirmation-text{
+    padding: 20px;
+    font-family: Sen;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+.arriving{
+    padding: 10px;
+    font-family: Sen;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+text-align: center;
+
+}
+
+.arriving-date{
+    font-family: Sen;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+text-align: center;
+color: #038700;
+
+}
+
+.c-main-img{
+    width: 200px;
+}
+.c-address-details{
+    
+}

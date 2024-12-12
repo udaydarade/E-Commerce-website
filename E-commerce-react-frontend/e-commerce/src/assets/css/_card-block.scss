@@ -1,0 +1,27 @@
+@import 'site-base';
+.card{
+
+    .property{
+        position: relative;
+        top: 1%;
+        left: 50%;
+        color: #000000;
+        font-family: $font-family-primary;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .font{
+        font-family: $font-family-primary;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
+body{
+    background-color: $body_color !important;
+}

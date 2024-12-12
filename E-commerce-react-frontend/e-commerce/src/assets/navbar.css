@@ -1,0 +1,68 @@
+@font-face {
+    font-family:'Press Start 2P' ;
+    src: url('/public/fonts/PressStart2P-Regular.ttf')format('ttf');
+}
+
+
+.d-none{
+    margin-right: 50%;
+}
+
+.dropdown-toggle{
+    font-family: initial;
+    font-size: x-large;
+    padding: -2%;
+}
+
+
+.dropdown-menu a{
+    width: 120px;    
+}
+
+.dropdown-item{
+    font-family: initial;
+}
+
+
+.d-none button {
+    margin-right: 5%;
+    display: flex;
+    font-family: initial;
+    height: 5%;
+}
+
+
+.other {
+    background-color: white;
+    border-color: black;
+}
+
+.cart {
+    color: white;
+    background-color: black;
+}
+
+
+#search {
+    border: none;
+}
+
+.container-fluid {
+    margin-right: 1%;
+    padding-bottom: 50px; /* Ensure space at the bottom of the container for navbar */
+}
+
+.Company_name {
+    font-family: 'Press Start 2P';
+    size: 50px;
+}
+
+.options {
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+#brand {
+    margin-left: 20px;
+}
